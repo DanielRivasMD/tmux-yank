@@ -101,7 +101,7 @@ yank_current_line() {
     end_of_line_in_copy_mode
     yank_to_clipboard
     go_to_the_end_of_current_line
-    display_message 'Line copied to clipboard!'
+    # display_message 'Line copied to clipboard!'
 }
 
 main() {

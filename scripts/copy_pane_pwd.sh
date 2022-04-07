@@ -23,6 +23,6 @@ main() {
     # $copy_command below should not be quoted
     echo "$payload" | $copy_command
     tmux set-buffer "$payload"
-    display_notice
+    # display_notice
 }
 main
